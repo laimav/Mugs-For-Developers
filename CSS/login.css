@@ -1,30 +1,48 @@
-.separateLoginTable
+.separateLoginTable {
+    border: #222533 1px solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    min-width: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    background-color: #4e5262;
+}
 
-.imgLogo
+.imgLogo {
+    width: 40px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-img {
-width: 70px;
-height: 70px;
+.signIn {
+    color: white;
+    padding-top: 15px;
 }
 
 .login {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
+    padding-top: 15px;    
 }
 
-input[type] {
+.textfields input {
     height: 30px;
+    width: 220px;
+    margin-top: 15px;
+    border-radius: 5px;
 }
 
 input[placeholder] {
-padding-left: 5px;
+    padding-left: 5px;
 }
 
 .checkbox {
-    display: flex;
-    align-items: center;
-    font-size: 13px;
+    color: #91eeda;
+    padding-top: 5px;
 }
 
 input[type="submit"] {

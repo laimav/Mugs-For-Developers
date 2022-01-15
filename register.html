@@ -26,13 +26,13 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="pricing.html">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="register.html">Register</a>
+                        <a class="nav-link active" aria-current="page" href="register.html">Register</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="login.html">Login</a>
@@ -47,41 +47,41 @@
             <h4 class="regForm">Registration Form</h4>
             <form onsubmit="return form_submit();">
                 <div class="textfields">
-                <div>
-                    <label for="userName"></label>
-                </div>
-                <div>
-                    <input type="text" id="userName" name="userName" placeholder="Username*" required>
-                </div>
-                <div>
-                    <label for="firstName"></label>
-                </div>
-                <div>
-                    <input type="text" id="firstName" name="firstName" placeholder="First name*" required>
-                </div>
+                    <!-- <div>
+                        <label for="userName"></label>
+                    </div> -->
+                    <div>
+                        <input type="text" id="userName" name="userName" placeholder="User Name*" required>
+                    </div>
+                    <!-- <div>
+                        <label for="firstName"></label>
+                    </div> -->
+                    <div>
+                        <input type="text" id="firstName" name="firstName" placeholder="First name*" required>
+                    </div>
 
-                <div>
-                    <label for="lastName"></label>
+                    <!-- <div>
+                        <label for="lastName"></label>
+                    </div> -->
+                    <div>
+                        <input type="text" id="lastName" name="lastName" placeholder="Last name*">
+                    </div>
+                    <!-- <div>
+                        <label for="password"></label>
+                    </div> -->
+                    <div>
+                        <input type="password" id="password" name="password" placeholder="Password*" required
+                            minlength="8">
+                    </div>
+                    <!-- <div>
+                        <label for="retypePassword"></label>
+                    </div> -->
+                    <div>
+                        <input type="password" id="retypePassword" name="retypePassword"
+                            placeholder="Confirm Your Password*" required>
+                    </div>
                 </div>
                 <div>
-                    <input type="text" id="lastName" name="lastName" placeholder="Last name*">
-                </div>
-                <div>
-                    <label for="password"></label>
-                </div>
-                <div>
-                    <input type="password" id="password" name="password" placeholder="Password*" required minlength="8">
-                </div>
-                <div>
-                    <label for="retypePassword"></label>
-                </div>
-                <div>
-                    <input type="password" id="retypePassword" name="retypePassword"
-                        placeholder="Confirm Your Password*" required>
-                </div>
-            </div>
-                <div>
-                    <label for="Country"></label>
                     <div class="listOfCountries">
                         <select id="country" name="country" required>
                             <option selected disabled>-Select Country*-</option>
@@ -337,7 +337,7 @@
 
                 <div class="termsAndConditions">
                     <input type="checkbox" id="termsAndConditions" required>
-                    <a href="T&C.html">Agree with terms and conditions*</a>
+                    <a href="terms&conditions.html" target="_blank">Agree with terms and conditions*</a>
                 </div>
 
                 <div>
