@@ -6,4 +6,12 @@
     text-decoration: none;
         color: #91eeda !important;
       }
-      
+
+.first-block {
+    background-color: #4e5262;
+      }
+
+.white-text {
+    text-decoration: none;
+    color: white;
+}
