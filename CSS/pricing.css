@@ -12,3 +12,9 @@
      background-color: whitesmoke;
      min-height: 25rem;
  }
+
+ .centered {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }

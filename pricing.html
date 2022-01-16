@@ -98,7 +98,7 @@
 
                                 </div>
                                 <div class="col-6 d-grid gap-2 m-0">
-                                    <button class="btn btn-secondary btn-mint">Buy</button>
+                                    <button class="btn btn-secondary btn-mint" onclick="addToCart()">Buy</button>
                                 </div>
                             </div>
                         </div>
@@ -481,12 +481,13 @@
                             </div>
                               </div>
                            </div>
-                           <div class="card-body no-background rounded">
+                           <div class="card-body no-background rounded" id="shoppingCart">
                                <img src="imagesMugs/empty-cart.png" class="img-fluid rounded">
+                               
                            </div>
                            <div class="card-footer justify-content-end">
                                
-                                <h5>Total: €00.00 </h5>
+                                <h5>Total: <span id="total">€00.00</span> </h5>
                                
                            </div>
                        </div>
@@ -504,7 +505,7 @@
             </div>
         </footer>
     </div>
-    
+    <script src="JS/pricing.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 </body>
 
