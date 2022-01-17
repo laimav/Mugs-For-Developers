@@ -18,3 +18,7 @@
      align-items: center;
      justify-content: center;
  }
+.left-bottom {
+    justify-content: end;
+    align-self: flex-end;
+}
