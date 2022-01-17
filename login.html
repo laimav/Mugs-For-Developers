@@ -42,25 +42,27 @@
     </nav>
 
     <main>
-        <div class="container separateLoginTable">
-            <img class="imgLogo" src="images/logo.png">
-            <div class="title signIn">
-                <h4>Please Log In</h4>
-            </div>
-            <div class="textfields">
-                <div class="login">
-                    <input type="text" placeholder="Email address">
-                    <input type="text" placeholder="Password">
+        <form onsubmit="form_submit_login();return false;">
+            <div class="container separateLoginTable">
+                <img class="imgLogo" src="images/logo.png">
+                <div class="title signIn">
+                    <h4>Please Log In</h4>
+                </div>
+                <div class="textfields">
+                    <div class="login">
+                        <input type="email" id="email" placeholder="Email address">
+                        <input type="password" id="password" placeholder="Password" required minlength="8">
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox">
+                    <label for="checkbox">Remember me</label>
+                </div>
+                <div>
+                    <input type="submit" value="Sign In">
                 </div>
             </div>
-            <div class="checkbox">
-                <input type="checkbox">
-                <label for="checkbox">Remember me</label>
-            </div>
-            <div>
-                <input type="submit" value="Sign In">
-            </div>
-        </div>
+        </form>
     </main>
 
     <footer class="text-center mt-auto" id="footerStyle">
@@ -71,6 +73,9 @@
         </div>
     </footer>
 
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="JS/login.js"></script>
 
 </body>
 
