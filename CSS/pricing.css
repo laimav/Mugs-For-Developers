@@ -1,0 +1,24 @@
+.btn-mint {
+    
+    color:  #91eeda;
+    font-weight: bold;
+    
+}
+.bck-mint {
+    background-color: #72768d;
+    color:  #91eeda;
+}
+ .no-background {
+     background-color: whitesmoke;
+     min-height: 25rem;
+ }
+
+ .centered {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+.left-bottom {
+    justify-content: end;
+    align-self: flex-end;
+}
